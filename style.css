@@ -1,0 +1,123 @@
+/*The main div.*/
+#main {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*The load file input.*/
+#loadInput {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*The div enclosing position information.*/
+#loadBox {
+  background-color: lightgray;
+  border-style: solid;
+  border-radius: 5px 5px 5px 5px;
+  width: 190px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*The div enclosing logs and input.*/
+#console {
+  background-color: lightgray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-style: solid;
+  border-radius: 0px 0px 5px 5px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*The div enclosing position information.*/
+#posBox {
+  background-color: lightgray;
+  border-style: solid;
+  border-bottom-style: none;
+  border-radius: 5px 5px 0px 0px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Styling for position information paragraphs.*/
+.posDisplay {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 16.5px;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  margin-left: 4px;
+  margin-right: 4px
+}
+
+/*Top border for position information.*/
+.posBorder {
+  border-top: solid 1px;
+}
+
+/*The div for logs.*/
+#logContainer {
+  background-color: white;
+  margin-bottom: 5px;
+  padding-bottom: 12.2px;
+  padding-top: 12.2px;
+  border-style: solid;
+  width: 475px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Styling for logs lines.*/
+.logText {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 16.5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*Background color change for visible log lines.*/
+.visible {
+  background-color: whitesmoke;
+}
+
+/*Both border style for log lines.*/
+.bothBorder {
+  height: 24.4px;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+}
+
+/*Bottom border style for log lines.*/
+.bottomBorder {
+  height: 25.4px;
+  border-bottom: solid 1px;
+}
+
+/*Top border style for log lines.*/
+.topBorder {
+  height: 25.4px;
+  border-top: solid 1px;
+}
+
+/*No border style for log lines.*/
+.noBorder {
+  height: 26.4px;
+}
+
+/*The player input box.*/
+#input {
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 16.5px;
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 473px;
+  height: 25px;
+  border: solid 3px;
+  border-color: black;
+}
